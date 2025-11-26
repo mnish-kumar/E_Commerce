@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const instance = axios.create({
-  baseURL: import.meta.env.VITE_API_URL || "http://localhost:3000/",
+  baseURL: "https://e-commerce-backend-upui.onrender.com",
 });
 
 export default instance;
